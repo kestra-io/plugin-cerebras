@@ -1,7 +1,7 @@
-group: io.kestra.plugin.template
-name: "template"
-title: "Template"
-description: "Plugin template for Kestra"
+group: io.kestra.plugin.cerebras
+name: "cerebras"
+title: "Cerebras"
+description: "Cerebras plugin for Kestra"
 body: ""
 videos: []
 createdBy: "Kestra Core Team"
