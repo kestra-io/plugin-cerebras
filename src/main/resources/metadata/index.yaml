@@ -1,8 +1,8 @@
 group: io.kestra.plugin.cerebras
 name: "cerebras"
 title: "Cerebras"
-description: "Cerebras plugin for Kestra"
-body: ""
+description: "Tasks and triggers that call Cerebras for chat completions and model listing."
+body: "Set your Cerebras API key (and optional base URL) to generate chat responses, list available models, or trigger flows when a model response meets a condition, returning results and usage details for downstream steps."
 videos: []
 createdBy: "Kestra Core Team"
 managedBy: "Kestra Core Team"

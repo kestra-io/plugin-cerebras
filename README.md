@@ -30,27 +30,27 @@
 <br />
 <p align="center">
     <a href="https://go.kestra.io/video/product-overview" target="_blank">
-        <img src="https://kestra.io/startvideo.png" alt="Get started in 3 minutes with Kestra" width="640px" />
+        <img src="https://kestra.io/startvideo.png" alt="Get started in 4 minutes with Kestra" width="640px" />
     </a>
 </p>
-<p align="center" style="color:grey;"><i>Get started with Kestra in 3 minutes.</i></p>
+<p align="center" style="color:grey;"><i>Get started with Kestra in 4 minutes.</i></p>
 
-# Kestra Cerebras Plugin
+# Kestra Cerebras plugin
 
 ## Why
 
-- What user problem does this solve? Teams need a concrete starting point for building and validating new Kestra plugins without recreating the same project scaffolding from scratch.
-- Why would a team adopt this plugin in a workflow? It gives plugin authors a ready-made reference repo they can adapt alongside their own build, test, and publishing workflow.
-- What operational/business outcome does it enable? It shortens plugin delivery time, reduces setup mistakes, and makes internal or partner plugin development more repeatable.
+- What user problem does this solve? Teams need to call Cerebras for chat completions and model discovery from orchestrated workflows instead of relying on manual console work, ad hoc scripts, or disconnected schedulers.
+- Why would a team adopt this plugin in a workflow? It keeps Cerebras steps in the same Kestra flow as upstream preparation, approvals, retries, notifications, and downstream systems, and lets a model response start a flow through a polling trigger.
+- What operational/business outcome does it enable? It reduces manual handoffs and fragmented tooling while improving reliability, traceability, and delivery speed for processes that depend on Cerebras.
 
 ## What
 
 - Provides plugin components under `io.kestra.plugin.cerebras`.
-- Includes classes such as `Example`, `Trigger`.
+- Includes classes such as `ChatCompletion`, `ListModels`, `ChatCompletionTrigger`.
 
 ## Documentation
-* Full documentation can be found under: [kestra.io/docs](https://kestra.io/docs)
-* Documentation for developing a plugin is included in the [Plugin Developer Guide](https://kestra.io/docs/plugin-developer-guide/)
+* Full documentation can be found under [kestra.io/docs](https://kestra.io/docs)
+* Documentation for developing a plugin is included in the [Plugin Developer Guide](https://kestra.io/docs/plugin-developer-guide/).
 
 
 ## License

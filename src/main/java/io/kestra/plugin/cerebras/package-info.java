@@ -1,7 +1,7 @@
 @PluginSubGroup(
     title = "Cerebras",
     description = "Cerebras plugin for Kestra",
-    categories = PluginSubGroup.PluginCategory.DATA
+    categories = PluginSubGroup.PluginCategory.AI
 )
 package io.kestra.plugin.cerebras;
 
